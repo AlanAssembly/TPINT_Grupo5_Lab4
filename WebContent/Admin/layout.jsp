@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
 
 <link rel="stylesheet" href="../css/layoutAdmin.css">
+<link rel="stylesheet" href="../css/datatable.css">
 <!--  FIN RERENCIAS LAYOUT -->
 </head>
 <body>
@@ -185,8 +186,12 @@
       </a>
     </div>
   </nav>
-  <!-- sidebar-wrapper  -->	
-  <%@include file = "../Admin/index.jsp"%> 
+  <!-- sidebar-wrapper  -->
+  
+	
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>   
+  <%@include file = "../Admin/index.jsp"%>
+  
   <!-- page-content -->
 </div>
 <!-- page-wrapper -->
