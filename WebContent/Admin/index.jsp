@@ -13,10 +13,9 @@
 
 <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
 <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">
+
 <script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
 <script type="text/javascript" src="https://cdn.datatables.net/1.10.21/js/dataTables.bootstrap4.min.js"></script>
-
-<link rel="stylesheet" href="../css/datatable.css">
 
 <script>
  $(document).ready(function() {
@@ -26,15 +25,81 @@
   
 <main class="page-content">
     <div class="container">
-      <h2>Pro Sidebar</h2>
+      <h2>Cursos</h2>
       <hr>
       <div class="row">
         <div class="form-group col-md-12">
-          <p>Con esto le rompemos la m... a todos!</p>
-          <p>Así que, no nos queda mucho en la parte de diseño, ¿Qué más ideas pueden aportar? Ah...!
-          	 Faltaría el layout (ó masterPage como lo llamamos en asp.net) del Profesor.</p>
-          <p>Les dejo un ejemplo del datatable que podríamos usar y nos va a servir en los listados de alumnos, profesores, lo que sea.
-          	 Y también con funciones de exportar a excel que ya está hecho! Se ve medio feo por ahora, tengo que arreglarlo pero lo haré otro día.</p>
+	    	<div class="row">
+	    		<div class="col-12 col-md-6 col-lg-12 col-xl-12">
+						<div class="card">							
+							<div class="card-body p-0">
+								<div class="table-responsive">
+									<table class="table mb-0">
+										<thead class="d-none">
+											<tr>
+												<th>Materia</th>
+												<th>Cuatrimestre</th>
+												<th>Año</th>
+												<th></th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td style="min-width: 200px;">													
+													<h2>Diseño y Administración de Base de Datos</h2>
+												</td>                 
+												<td>
+													<h5 class="time-title p-0">1er Cuatrimestre</h5>
+												</td>
+												<td>
+													<h5 class="time-title p-0">2019</h5>
+												</td>
+												<td class="text-right">
+													<a href="#" class="btn btn-outline-info take-btn">Ir
+													<span class="button-go"><img src="https://img.icons8.com/flat_round/20/000000/arrow--v1.png"/></span>
+													</a>
+												</td>
+											</tr>
+											<tr>
+												<td style="min-width: 200px;">
+													<h2>Programación I</h2>
+												</td>                 
+												<td>
+													<h5 class="time-title p-0">1er Cuatrimestre</h5>
+												</td>
+												<td>
+													<h5 class="time-title p-0">2020</h5>
+												</td>
+												<td class="text-right">
+													<a href="#" class="btn btn-outline-info take-btn">Ir
+													<span class="button-go"><img src="https://img.icons8.com/flat_round/20/000000/arrow--v1.png"/></span>
+													</a>
+												</td>
+											</tr>
+											<tr>
+												<td style="min-width: 200px;">
+<!-- 													<a class="avatar" href="profile.html">B</a> -->
+													<h2>Laboratorio II</h2>
+												</td>                 
+												<td>
+													<h5 class="time-title p-0">2do Cuatrimestre</h5>
+												</td>
+												<td>
+													<h5 class="time-title p-0">2020</h5>
+												</td>
+												<td class="text-right">
+													<a href="#" class="btn btn-outline-info take-btn">Ir
+													<span class="button-go"><img src="https://img.icons8.com/flat_round/20/000000/arrow--v1.png"/></span>
+													</a>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+			</div>  
         </div>
         <div class="form-group col-md-12">      
       	<h3 class="titulo-tabla">Alumnos</h3>         
@@ -124,4 +189,3 @@
     </div>
   </main>
   
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
