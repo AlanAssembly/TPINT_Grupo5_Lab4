@@ -61,7 +61,7 @@
       <div class="sidebar-menu">
         <ul>
           <li class="header-menu">
-            <span>Menú</span>
+            <span>MenÃº</span>
           </li>
           <li class="sidebar-dropdown">
             <a href="#">
@@ -73,7 +73,7 @@
             <div class="sidebar-submenu">
               <ul>
               	<li>
-                  <a href="#">Agregar</a>
+                  <a href="AddAlumnito.jsp">Agregar</a>
                 </li>
                 <li>
                   <a href="#">Modificar</a>
