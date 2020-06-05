@@ -7,7 +7,7 @@
     <meta name="viewport" content="width-device-width,initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="sie-edge" />
     <link href="https://unpkg.com/ionicons@4.2.2/dist/css/ionicons.min.css" rel="stylesheet"> 
-    <title>Slider Form</title>
+    <title>SDG Educativa</title>
     <link href="css/login.css" type="text/css" rel="stylesheet">
 </head>
 <body>

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>SDG Educativa</title>
 <!--  INICIO RERENCIAS LAYOUT -->
 <link rel="apple-touch-icon" type="image/png" href="https://static.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
 <meta name="apple-mobile-web-app-title" content="CodePen"><link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
@@ -23,7 +23,7 @@
   <nav id="sidebar" class="sidebar-wrapper">
     <div class="sidebar-content">
       <div class="sidebar-brand">
-        <a href="#">Administración</a>
+        <a href="#">Administrador</a>
         <div id="close-sidebar">
           <i class="fas fa-times"></i>
         </div>
@@ -36,7 +36,7 @@
           <span class="user-name">Sarah
             <strong>Connor</strong>
           </span>
-          <span class="user-role">Administrator</span>
+          <span class="user-role">Admistrador</span>
           <span class="user-status">
             <i class="fa fa-circle"></i>
             <span>Online</span>
@@ -60,27 +60,32 @@
       <div class="sidebar-menu">
         <ul>
           <li class="header-menu">
-            <span>Mantenimiento</span>
+            <span>Menú</span>
           </li>
           <li class="sidebar-dropdown">
             <a href="#">
               <i class="far fa-gem"></i>
+              
+              
               <span>Alumnos</span>
             </a>
             <div class="sidebar-submenu">
               <ul>
               	<li>
-                  <a href="#">Listado</a>
+                  <a href="#">Agregar</a>
                 </li>
                 <li>
-                  <a href="#">Asistencias</a>
+                  <a href="#">Modificar</a>
                 </li>
                 <li>
-                  <a href="#">Regularizados</a>
+                  <a href="#">Eliminar</a>
                 </li>
                 <li>
-                  <a href="#">Promociones</a>
+                  <a href="#">Listar Alumnos</a>
                 </li>
+                
+              
+                
               </ul>
             </div>
           </li>
@@ -91,9 +96,25 @@
             </a>
             <div class="sidebar-submenu">
               <ul>
+              
+              <li>
+                  <a href="#">Agregar</a>
+                </li>
+                <li>
+                  <a href="#">Modificar</a>
+                </li>
+                <li>
+                  <a href="#">Eliminar</a>
+                </li>
+              
                 <li>
                   <a href="#">Listado</a>
                 </li>
+                
+                
+                
+                
+                
               </ul>
             </div>
           </li>
@@ -104,9 +125,24 @@
             </a>
             <div class="sidebar-submenu">
               <ul>
+              
+                <li>
+                  <a href="#">Agregar</a>
+                </li>
+                <li>
+                  <a href="#">Modificar</a>
+                </li>
+                <li>
+                  <a href="#">Eliminar</a>
+                </li>
                 <li>
                   <a href="#">Listado</a>
                 </li>
+                
+                
+                
+                
+                
               </ul>
             </div>
           </li>

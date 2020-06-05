@@ -26,18 +26,15 @@
   
 <main class="page-content">
     <div class="container">
-      <h2>Pro Sidebar</h2>
+      <h2>BIENVENIDO</h2>
       <hr>
       <div class="row">
         <div class="form-group col-md-12">
-          <p>Con esto le rompemos la m... a todos!</p>
-          <p>Así que, no nos queda mucho en la parte de diseño, ¿Qué más ideas pueden aportar? Ah...!
-          	 Faltaría el layout (ó masterPage como lo llamamos en asp.net) del Profesor.</p>
-          <p>Les dejo un ejemplo del datatable que podríamos usar y nos va a servir en los listados de alumnos, profesores, lo que sea.
-          	 Y también con funciones de exportar a excel que ya está hecho! Se ve medio feo por ahora, tengo que arreglarlo pero lo haré otro día.</p>
+          
+          <p></p>
         </div>
         <div class="form-group col-md-12">      
-      	<h3 class="titulo-tabla">Alumnos</h3>         
+      	<h3 class="titulo-tabla">REPORTE</h3>         
       		<table id="example" class="table table-striped table-bordered" style="width:100%">
         <thead>
             <tr>
