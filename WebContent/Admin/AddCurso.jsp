@@ -113,7 +113,7 @@ span{margin:0 5px 0 15px}
               <ul>
               
               <li>
-                  <a href="#">Agregar</a>
+                  <a href="AddDocente.jsp">Agregar</a>
                 </li>
                 <li>
                   <a href="#">Modificar</a>
