@@ -61,19 +61,18 @@
       <div class="sidebar-menu">
         <ul>
           <li class="header-menu">
-            <span>MenÃº</span>
+            <span>Menú</span>
           </li>
           <li class="sidebar-dropdown">
             <a href="#">
-              <i class="far fa-gem"></i>
-              
-              
+              <i class="far fa-gem"></i>           
               <span>Alumnos</span>
             </a>
             <div class="sidebar-submenu">
               <ul>
               	<li>
                   <a href="AddAlumnito.jsp">Agregar</a>
+                  
                 </li>
                 <li>
                   <a href="#">Modificar</a>
@@ -83,10 +82,7 @@
                 </li>
                 <li>
                   <a href="#">Listar Alumnos</a>
-                </li>
-                
-              
-                
+                </li>               
               </ul>
             </div>
           </li>
@@ -96,8 +92,7 @@
               <span>Profesores</span>
             </a>
             <div class="sidebar-submenu">
-              <ul>
-              
+              <ul>             
               <li>
                   <a href="#">Agregar</a>
                 </li>
@@ -106,16 +101,10 @@
                 </li>
                 <li>
                   <a href="#">Eliminar</a>
-                </li>
-              
+                </li>              
                 <li>
                   <a href="#">Listado</a>
-                </li>
-                
-                
-                
-                
-                
+                </li>              
               </ul>
             </div>
           </li>
@@ -125,8 +114,7 @@
               <span>Cursos</span>
             </a>
             <div class="sidebar-submenu">
-              <ul>
-              
+              <ul>             
                 <li>
                   <a href="#">Agregar</a>
                 </li>
@@ -138,12 +126,7 @@
                 </li>
                 <li>
                   <a href="#">Listado</a>
-                </li>
-                
-                
-                
-                
-                
+                </li>             
               </ul>
             </div>
           </li>

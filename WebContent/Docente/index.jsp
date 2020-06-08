@@ -1,15 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1" 
      pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html>
-<!-- <html> -->
-<!-- <head> -->
-<!-- <meta charset="ISO-8859-1"> -->
-<!-- <title>Insert title here</title> -->
-<!-- </head> -->
-<!-- <body> -->
-
-<!-- </body> -->
-<!-- </html> -->
 
 <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
 <link type="text/css" rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/dataTables.bootstrap4.min.css">

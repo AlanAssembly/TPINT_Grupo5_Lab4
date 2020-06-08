@@ -20,18 +20,11 @@
 </head>
 
 <style>
-
-
-
 input{width:100%;padding:10px;box-sizing:border-box;background:none;outline:none;resize:none;border:0;font-family:'Montserrat',sans-serif;transition:all .3s;border-bottom:2px solid #bebed2}
 input:focus{border-bottom:2px solid #78788c}
-
 button{float:right;padding:8px 12px;margin:8px 0 0;font-family:'Montserrat',sans-serif;border:2px solid #78788c;background:0;color:#5a5a6e;cursor:pointer;transition:all .3s}
 button:hover{background:#78788c;color:#fff}
 span{margin:0 5px 0 15px}
-
-
-
 </style>
 <body>
 <div class="page-wrapper chiller-theme toggled">
