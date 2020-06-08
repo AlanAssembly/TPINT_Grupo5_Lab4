@@ -4,21 +4,17 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
+<title>SDG Educativa</title>
+<!--  INICIO RERENCIAS LAYOUT -->
 <link rel="apple-touch-icon" type="image/png" href="https://static.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
 <meta name="apple-mobile-web-app-title" content="CodePen"><link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
 <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
 
-
-<link rel="stylesheet" href="css/layoutAdmin.css">
-<link rel="stylesheet" href="css/datatable.css">
-
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.10.21/b-1.6.2/b-colvis-1.6.2/b-flash-1.6.2/b-html5-1.6.2/b-print-1.6.2/fc-3.3.1/fh-3.1.7/r-2.2.5/rr-1.2.7/datatables.min.css"/>
-
-<title>Administrador</title>
-</head>
-
+<link rel="stylesheet" href="../css/layoutAdmin.css">
+<link rel="stylesheet" href="../css/datatable.css">
+<!--  FIN RERENCIAS LAYOUT -->
 <style>
 input{width:100%;padding:10px;box-sizing:border-box;background:none;outline:none;resize:none;border:0;font-family:'Montserrat',sans-serif;transition:all .3s;border-bottom:2px solid #bebed2}
 input:focus{border-bottom:2px solid #78788c}
@@ -26,6 +22,7 @@ button{float:right;padding:8px 12px;margin:8px 0 0;font-family:'Montserrat',sans
 button:hover{background:#78788c;color:#fff}
 span{margin:0 5px 0 15px}
 </style>
+</head>
 <body>
 <div class="page-wrapper chiller-theme toggled">
   <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
@@ -34,7 +31,7 @@ span{margin:0 5px 0 15px}
   <nav id="sidebar" class="sidebar-wrapper">
     <div class="sidebar-content">
       <div class="sidebar-brand">
-        <a href="#">Administraci�n</a>
+        <a href="#">Administrador</a>
         <div id="close-sidebar">
           <i class="fas fa-times"></i>
         </div>
@@ -47,7 +44,7 @@ span{margin:0 5px 0 15px}
           <span class="user-name">Sarah
             <strong>Connor</strong>
           </span>
-          <span class="user-role">Administrator</span>
+          <span class="user-role">Admistrador</span>
           <span class="user-status">
             <i class="fa fa-circle"></i>
             <span>Online</span>
@@ -71,30 +68,32 @@ span{margin:0 5px 0 15px}
       <div class="sidebar-menu">
         <ul>
           <li class="header-menu">
-            <span>Mantenimiento</span>
+            <span>MenÃº</span>
           </li>
           <li class="sidebar-dropdown">
             <a href="#">
               <i class="far fa-gem"></i>
+              
+              
               <span>Alumnos</span>
             </a>
             <div class="sidebar-submenu">
               <ul>
               	<li>
-                  <a href="#">Listado</a>
+                  <a href="AddAlumnito.jsp">Agregar Alumno</a>
                 </li>
                 <li>
-                  <a href="#">Agregar Alumno</a>
+                  <a href="#">Modificar</a>
                 </li>
                 <li>
-                  <a href="#">Asistencias</a>
+                  <a href="#">Eliminar</a>
                 </li>
                 <li>
-                  <a href="#">Regularizados</a>
+                  <a href="#">Listar Alumnos</a>
                 </li>
-                <li>
-                  <a href="#">Promociones</a>
-                </li>
+                
+              
+                
               </ul>
             </div>
           </li>
@@ -105,9 +104,25 @@ span{margin:0 5px 0 15px}
             </a>
             <div class="sidebar-submenu">
               <ul>
+              
+              <li>
+                  <a href="#">Agregar</a>
+                </li>
+                <li>
+                  <a href="#">Modificar</a>
+                </li>
+                <li>
+                  <a href="#">Eliminar</a>
+                </li>
+              
                 <li>
                   <a href="#">Listado</a>
                 </li>
+                
+                
+                
+                
+                
               </ul>
             </div>
           </li>
@@ -118,9 +133,24 @@ span{margin:0 5px 0 15px}
             </a>
             <div class="sidebar-submenu">
               <ul>
+              
+                <li>
+                  <a href="#">Agregar</a>
+                </li>
+                <li>
+                  <a href="#">Modificar</a>
+                </li>
+                <li>
+                  <a href="#">Eliminar</a>
+                </li>
                 <li>
                   <a href="#">Listado</a>
                 </li>
+                
+                
+                
+                
+                
               </ul>
             </div>
           </li>
@@ -144,6 +174,7 @@ span{margin:0 5px 0 15px}
       </div>
       <!-- sidebar-menu  -->
     </div>
+   
     <!-- sidebar-content  -->
     <div class="sidebar-footer">
       <a href="#">
@@ -164,7 +195,7 @@ span{margin:0 5px 0 15px}
     </div>
   </nav>
   <!-- sidebar-wrapper  -->
-  <main class="page-content">
+ <main class="page-content">
     <div class="container">
       <h2>Alta de Alumnos</h2>
       <hr>
@@ -173,9 +204,7 @@ span{margin:0 5px 0 15px}
           
           
         </div>
-        <div class="form-group col-md-12">      
-      
-      		
+        <div class="form-group col-md-12">          
        		<form class="form">
        			<div class="card" style="background:#b0bec5">
   					<div class="card-body">
@@ -198,20 +227,15 @@ span{margin:0 5px 0 15px}
     	</div>
       </div>
     </div>
-  </main>
-  <!-- page-content" -->
+  </main>  
+	
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>   
+  
+  
+  <!-- page-content -->
 </div>
 <!-- page-wrapper -->
-<script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/esm/popper.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.js"></script> 
-  <script src="js/datatable.js"></script>
-  <script src="js/layoutAdmin.js"></script>
-  	
-  	
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
-<script type="text/javascript" src="https://cdn.datatables.net/v/bs4/jq-3.3.1/jszip-2.5.0/dt-1.10.21/b-1.6.2/b-colvis-1.6.2/b-flash-1.6.2/b-html5-1.6.2/b-print-1.6.2/fc-3.3.1/fh-3.1.7/r-2.2.5/rr-1.2.7/datatables.min.js"></script>
+<script src="../js/layoutAdmin.js"></script>
+
 </body>
 </html>
