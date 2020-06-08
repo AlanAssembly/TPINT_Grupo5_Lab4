@@ -68,7 +68,7 @@ span{margin:0 5px 0 15px}
       <div class="sidebar-menu">
         <ul>
           <li class="header-menu">
-            <span>MenÃƒÂº</span>
+            <span>Menú</span>
           </li>
           <li class="sidebar-dropdown">
             <a href="#">
@@ -198,6 +198,10 @@ span{margin:0 5px 0 15px}
  <main class="page-content">
     <div class="container">
       <h2>Alta de Alumnos</h2>
+     
+     <p> Para registrar un nuevo alumno, debe completar los siguientes datos a continuación: </p>
+     
+     
       <hr>
       <div class="row">
         <div class="form-group col-md-12">
@@ -206,13 +210,13 @@ span{margin:0 5px 0 15px}
         </div>
         <div class="form-group col-md-12">          
        		<form class="form">
-       			<div class="card" style="background:#b0bec5">
+       			<div class="card" style="background:#ebebeb">
   					<div class="card-body">
-   	  					<input type="text" placeholder="Ingrese el nombre del alumno"></input>
-				  		<input type="text" placeholder="Ingrese Apellido"></input>
+   	  					<input type="text" placeholder="Nombre"></input>
+				  		<input type="text" placeholder="Apellido"></input>
 				  		<input type="text" placeholder="DNI"></input>
-				  		<input type="text" placeholder="Numero de legajo"></input>
-				  		<input type="text" placeholder="Numero de comision"></input>
+				  		<input type="text" placeholder="Número de legajo"></input>
+				  		<input type="text" placeholder="Número de comision"></input>
 				  		<input type="text" placeholder="Nombre de materia"></input>
 				  		<input type="text" placeholder="Horario"></input>
 				 	    <br/>
