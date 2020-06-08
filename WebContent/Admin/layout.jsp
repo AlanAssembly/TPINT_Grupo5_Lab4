@@ -61,7 +61,7 @@
       <div class="sidebar-menu">
         <ul>
           <li class="header-menu">
-            <span>Menú</span>
+            <span>MenÃº</span>
           </li>
           <li class="sidebar-dropdown">
             <a href="#">
@@ -94,7 +94,7 @@
             <div class="sidebar-submenu">
               <ul>             
               <li>
-                  <a href="#">Agregar</a>
+                  <a href="AddDocente.jsp">Agregar</a>
                 </li>
                 <li>
                   <a href="#">Modificar</a>
@@ -116,7 +116,7 @@
             <div class="sidebar-submenu">
               <ul>             
                 <li>
-                  <a href="#">Agregar</a>
+                  <a href="AddCurso.jsp">Agregar</a>
                 </li>
                 <li>
                   <a href="#">Modificar</a>
