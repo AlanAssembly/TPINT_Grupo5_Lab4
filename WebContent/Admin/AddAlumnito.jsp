@@ -68,7 +68,7 @@ span{margin:0 5px 0 15px}
       <div class="sidebar-menu">
         <ul>
           <li class="header-menu">
-            <span>Menú</span>
+            <span>MenÃº</span>
           </li>
           <li class="sidebar-dropdown">
             <a href="#">
@@ -106,7 +106,7 @@ span{margin:0 5px 0 15px}
               <ul>
               
               <li>
-                  <a href="#">Agregar</a>
+                  <a href="AddDocente.jsp">Agregar</a>
                 </li>
                 <li>
                   <a href="#">Modificar</a>
@@ -135,7 +135,7 @@ span{margin:0 5px 0 15px}
               <ul>
               
                 <li>
-                  <a href="#">Agregar</a>
+                  <a href="AddCurso.jsp">Agregar</a>
                 </li>
                 <li>
                   <a href="#">Modificar</a>
@@ -199,7 +199,7 @@ span{margin:0 5px 0 15px}
     <div class="container">
       <h2>Alta de Alumnos</h2>
      
-     <p> Para registrar un nuevo alumno, debe completar los siguientes datos a continuación: </p>
+     <p> Para registrar un nuevo alumno, debe completar los siguientes datos a continuaciÃ³n: </p>
      
      
       <hr>
@@ -215,8 +215,8 @@ span{margin:0 5px 0 15px}
    	  					<input type="text" placeholder="Nombre"></input>
 				  		<input type="text" placeholder="Apellido"></input>
 				  		<input type="text" placeholder="DNI"></input>
-				  		<input type="text" placeholder="Número de legajo"></input>
-				  		<input type="text" placeholder="Número de comision"></input>
+				  		<input type="text" placeholder="NÃºmero de legajo"></input>
+				  		<input type="text" placeholder="NÃºmero de comision"></input>
 				  		<input type="text" placeholder="Nombre de materia"></input>
 				  		<input type="text" placeholder="Horario"></input>
 				 	    <br/>
