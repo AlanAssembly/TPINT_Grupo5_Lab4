@@ -7,7 +7,7 @@
 <title>SDG Educativa</title>
 <!--  INICIO RERENCIAS LAYOUT -->
 
-
+<link  rel="icon"   href="../img/favicon.png" type="image/png" />
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
