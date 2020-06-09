@@ -75,7 +75,7 @@ span{margin:0 5px 0 15px}
       <div class="sidebar-menu">
         <ul>
           <li class="header-menu">
-            <span>MenÃº</span>
+            <span>Men�</span>
           </li>
           <li class="sidebar-dropdown">
             <a href="#">
@@ -213,7 +213,7 @@ span{margin:0 5px 0 15px}
         </div>
         <div class="form-group col-md-12">          
        		<form class="form">
-       			<div class="card" style="background:#b0bec5">
+       			<div class="card" style="background:#ebebeb">
   					<div class="card-body">
    	  					<input type="text" placeholder="Ingrese el nombre de la materia"></input>
 				  		<input type="text" placeholder="Numero de legajo docente"></input>

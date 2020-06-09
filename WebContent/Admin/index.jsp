@@ -22,7 +22,7 @@
 	    $('#example').DataTable();
 });
 </script>
-  
+
 <main class="page-content">
     <div class="container">
       <h2>Cursos</h2>

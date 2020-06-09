@@ -199,7 +199,7 @@ span{margin:0 5px 0 15px}
     <div class="container">
       <h2>Alta de Alumnos</h2>
      
-     <p> Para registrar un nuevo alumno, debe completar los siguientes datos a continuaciÃ³n: </p>
+     <p> Para registrar un nuevo alumno, debe completar los siguientes datos a continuación: </p>
      
      
       <hr>
