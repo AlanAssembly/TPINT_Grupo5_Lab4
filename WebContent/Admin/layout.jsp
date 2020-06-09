@@ -79,7 +79,7 @@
                   <a href="ModificarAlumno.jsp">Modificar</a>
                 </li>
                 <li>
-                  <a href="#">Eliminar</a>
+                  <a href="EliminarAlumnito.jsp">Eliminar</a>
                 </li>
                 <li>
                  
@@ -103,7 +103,7 @@
                   <a href="ModificarDocente.jsp">Modificar</a>
                 </li>
                 <li>
-                  <a href="#">Eliminar</a>
+                  <a href="EliminarDocente.jsp">Eliminar</a>
                 </li>              
                 <li>
                 
@@ -129,7 +129,7 @@
                   <a href="#">Modificar</a>
                 </li>
                 <li>
-                  <a href="#">Eliminar</a>
+                  <a href="EliminarCurso.jsp">Eliminar</a>
                 </li>
                 <li>
                 
