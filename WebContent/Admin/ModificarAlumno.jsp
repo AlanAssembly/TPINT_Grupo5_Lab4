@@ -13,6 +13,8 @@
 
 <link rel="stylesheet" href="../css/layoutAdmin.css">
 <link rel="stylesheet" href="../css/datatable.css">
+
+
 <!--  FIN RERENCIAS LAYOUT -->
 <style>
 input{width:100%;padding:10px;box-sizing:border-box;background:none;outline:none;resize:none;border:0;font-family:'Montserrat',sans-serif;transition:all .3s;border-bottom:2px solid #bebed2}
@@ -20,6 +22,88 @@ input:focus{border-bottom:2px solid #78788c}
 button{float:right;padding:8px 12px;margin:8px 0 0;font-family:'Montserrat',sans-serif;border:2px solid #78788c;background:0;color:#5a5a6e;cursor:pointer;transition:all .3s}
 button:hover{background:#78788c;color:#fff}
 span{margin:0 5px 0 15px}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container * {
+  box-sizing: border-box;
+}
+
+.flex-outer,
+.flex-inner {
+  list-style-type: none;
+  padding: 0;
+}
+
+.flex-outer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flex-outer li,
+.flex-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.flex-inner {
+  padding: 0 8px;
+  justify-content: space-between;  
+}
+
+.flex-outer > li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.flex-outer li label,
+.flex-outer li p {
+  padding: 8px;
+  font-weight: 300;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+.flex-outer > li > label,
+.flex-outer li p {
+  flex: 1 0 120px;
+  max-width: 220px;
+}
+
+.flex-outer > li > label + *,
+.flex-inner {
+  flex: 1 0 220px;
+}
+
+.flex-outer li p {
+  margin: 0;
+}
+
+.flex-outer li input:not([type='checkbox']),
+.flex-outer li textarea {
+  padding: 15px;
+  border: none;
+}
+
+.flex-outer li button {
+  margin-left: auto;
+  padding: 8px 16px;
+  border: none;
+  background: #333;
+  color: #f2f2f2;
+  text-transform: uppercase;
+  letter-spacing: .09em;
+  border-radius: 2px;
+}
+
+.flex-inner li {
+  width: 100px;
+}
+
 </style>
 </head>
 <body>
@@ -82,7 +166,7 @@ span{margin:0 5px 0 15px}
                   <a href="AddAlumnito.jsp">Agregar Alumno</a>
                 </li>
                 <li>
-                  <a href="#">Modificar</a>
+                  <a href="ModificarAlumno.jsp">Modificar</a>
                 </li>
                 <li>
                   <a href="#">Eliminar</a>
@@ -108,7 +192,7 @@ span{margin:0 5px 0 15px}
                   <a href="AddDocente.jsp">Agregar</a>
                 </li>
                 <li>
-                  <a href="#">Modificar</a>
+                  <a href="ModificarDocente.jsp">Modificar</a>
                 </li>
                 <li>
                   <a href="#">Eliminar</a>
@@ -198,92 +282,80 @@ span{margin:0 5px 0 15px}
   
   <!-- sidebar-content  -->
   
-  <div class="form-group col-md-12">      
-      	<h3 class="titulo-tabla">Alumnos</h3>         
-      		<table id="example" class="table table-striped table-bordered" style="width:100%">
-        <thead>
-            <tr>
-                <th>Nombre</th>
-                <th>Apellido</th>
-                <th>Edad</th>
-                <th>Nota Promedio</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Tiger Nixon</td>
-                <td>System Architect</td>
-                <td>Edinburgh</td>
-                <td>61</td>
-            </tr>
-            <tr>
-                <td>Garrett Winters</td>
-                <td>Accountant</td>
-                <td>Tokyo</td>
-                <td>63</td>
-            </tr>
-            <tr>
-                <td>Ashton Cox</td>
-                <td>Junior Technical Author</td>
-                <td>San Francisco</td>
-                <td>66</td>
-
-            </tr>
-            <tr>
-                <td>Cedric Kelly</td>
-                <td>Senior Javascript Developer</td>
-                <td>Edinburgh</td>
-                <td>22</td>
-            </tr>
-            <tr>
-                <td>Airi Satou</td>
-                <td>Accountant</td>
-                <td>Tokyo</td>
-                <td>33</td>
-            </tr>
-            <tr>
-                <td>Brielle Williamson</td>
-                <td>Integration Specialist</td>
-                <td>New York</td>
-                <td>61</td>
-            </tr>
-            <tr>
-                <td>Herrod Chandler</td>
-                <td>Sales Assistant</td>
-                <td>San Francisco</td>
-                <td>59</td>
-            </tr>
-            <tr>
-                <td>Rhona Davidson</td>
-                <td>Integration Specialist</td>
-                <td>Tokyo</td>
-                <td>55</td>
-            </tr>
-            <tr>
-                <td>Colleen Hurst</td>
-                <td>Javascript Developer</td>
-                <td>San Francisco</td>
-                <td>39</td>
-            </tr>       
-            <tr>
-                <td>Donna Snider</td>
-                <td>Customer Support</td>
-                <td>New York</td>
-                <td>27</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <th>Nombre</th>
-                <th>Apellido</th>
-                <th>Edad</th>
-                <th>Nota Promedio</th>
-            </tr>
-        </tfoot>
-    </table>    
-    	</div>
-    	
-    	
+  
+  
+  <div class="container">
+  <form>
+    <ul class="flex-outer">
+      <li>
+        <label for="first-name">Nombre</label>
+        <input type="text" id="first-name" placeholder="Ingresar nombre aqui">
+      </li>
+      <li>
+        <label for="last-name">Apellido:</label>
+        <input type="text" id="last-name" placeholder="Ingresar Apellido aqui">
+      </li>
+      <li>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Ingresar Email aqui">
+      </li>
+      <li>
+        <label for="phone">Telefono</label>
+        <input type="tel" id="phone" placeholder="Ingresar Telefono aqui">
+      </li>
+      <li>
+        <label for="message">Mensaje</label>
+        <textarea rows="6" id="message" placeholder="Ingresar mensaje"></textarea>
+      </li>
+      <li>
+        <p>Edad</p>
+        <ul class="flex-inner">
+          <li>
+            <input type="checkbox" id="twenty-to-twentynine">
+            <label for="twenty-to-twentynine">20-29</label>
+          </li>
+          <li>
+            <input type="checkbox" id="thirty-to-thirtynine">
+            <label for="thirty-to-thirtynine">30-39</label>
+          </li>
+          <li>
+            <input type="checkbox" id="fourty-to-fourtynine">
+            <label for="fourty-to-fourtynine">40-49</label>
+          </li>
+          <li>
+            <input type="checkbox" id="fifty-to-fiftynine">
+            <label for="fifty-to-fiftynine">50-59</label>
+          </li>
+          <li>
+            <input type="checkbox" id="sixty-to-sixtynine">
+            <label for="sixty-to-sixtynine">60-69</label>
+          </li>
+          <li>
+            <input type="checkbox" id="other">
+            <label for="other">Otro</label>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <button type="submit">Modificar</button>
+      </li>
+    </ul>
+  </form>
+</div>
+  
+  
+  
+  
+  
+  
+  
+  
+                    
+                    
+                    
+  
+  
+  
   
   
   
@@ -298,7 +370,7 @@ span{margin:0 5px 0 15px}
   
   
   
-  
+  <!-- sidebar-content  -->
 	
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>   
   
@@ -311,69 +383,4 @@ span{margin:0 5px 0 15px}
 </body>
 </html>
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   

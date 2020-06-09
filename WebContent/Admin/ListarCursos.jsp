@@ -82,7 +82,7 @@ span{margin:0 5px 0 15px}
                   <a href="AddAlumnito.jsp">Agregar Alumno</a>
                 </li>
                 <li>
-                  <a href="#">Modificar</a>
+                  <a href="ModificarAlumno.jsp">Modificar</a>
                 </li>
                 <li>
                   <a href="#">Eliminar</a>
@@ -108,7 +108,7 @@ span{margin:0 5px 0 15px}
                   <a href="AddDocente.jsp">Agregar</a>
                 </li>
                 <li>
-                  <a href="#">Modificar</a>
+                  <a href="ModificarDocente.jsp">Modificar</a>
                 </li>
                 <li>
                   <a href="#">Eliminar</a>
@@ -199,7 +199,7 @@ span{margin:0 5px 0 15px}
   <!-- sidebar-content  -->
   
   <div class="form-group col-md-12">      
-      	<h3 class="titulo-tabla">Alumnos</h3>         
+      	<h3 class="titulo-tabla">Cursos</h3>         
       		<table id="example" class="table table-striped table-bordered" style="width:100%">
         <thead>
             <tr>
@@ -311,69 +311,4 @@ span{margin:0 5px 0 15px}
 </body>
 </html>
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   

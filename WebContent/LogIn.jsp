@@ -14,7 +14,7 @@
     <div class="container" id="container">
         <div class="form-container sign-in-container">
             <form action="Admin/layout.jsp">
-                <h1>Iniciar Sesión</h1>
+                <h1>Iniciar Sesion</h1>
                 <div class="social-container">
                     <a href="#" class="social">
 <!--                         <ion-icon name="logo-facebook"></ion-icon> -->
@@ -26,9 +26,9 @@
 <!--                         <ion-icon name="logo-linkedin"></ion-icon> -->
                     </a>
                 </div>
-                <span>Ingrese su nombre de usuario y contraseña</span>
+                <span>Ingrese su nombre de usuario y password</span>
                 <input type="text" placeholder="Usuario">
-                <input type="password" placeholder="Contraseña">
+                <input type="password" placeholder="Password">
                 <button>Sign In</button>
             </form>
         </div>

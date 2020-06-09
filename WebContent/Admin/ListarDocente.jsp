@@ -7,7 +7,6 @@
 <title>SDG Educativa</title>
 <!--  INICIO RERENCIAS LAYOUT -->
 
-
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
 
@@ -199,7 +198,7 @@ span{margin:0 5px 0 15px}
   <!-- sidebar-content  -->
   
   <div class="form-group col-md-12">      
-      	<h3 class="titulo-tabla">Alumnos</h3>         
+      	<h3 class="titulo-tabla">Docentes</h3>         
       		<table id="example" class="table table-striped table-bordered" style="width:100%">
         <thead>
             <tr>
@@ -311,69 +310,4 @@ span{margin:0 5px 0 15px}
 </body>
 </html>
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+    

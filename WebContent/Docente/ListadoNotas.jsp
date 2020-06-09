@@ -72,7 +72,7 @@
               <ul>
               	
                 <li>
-                  <a href="ListadoNotas.jsp">Listado</a>
+                  <a href="#">Listado</a>
                 </li>
                 <li>
                   <a href="#">Regularizados</a>
@@ -136,8 +136,116 @@
     </div>
   </nav>
   <!-- sidebar-wrapper  -->
+  
+  
+  <div class="form-group col-md-12">      
+      	<h3 class="titulo-tabla">Cursos</h3>         
+      		<table id="example" class="table table-striped table-bordered" style="width:100%">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+                <th>Nota Promedio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Tiger Nixon</td>
+                <td>System Architect</td>
+                <td>Edinburgh</td>
+                <td>61</td>
+            </tr>
+            <tr>
+                <td>Garrett Winters</td>
+                <td>Accountant</td>
+                <td>Tokyo</td>
+                <td>63</td>
+            </tr>
+            <tr>
+                <td>Ashton Cox</td>
+                <td>Junior Technical Author</td>
+                <td>San Francisco</td>
+                <td>66</td>
+
+            </tr>
+            <tr>
+                <td>Cedric Kelly</td>
+                <td>Senior Javascript Developer</td>
+                <td>Edinburgh</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>Airi Satou</td>
+                <td>Accountant</td>
+                <td>Tokyo</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <td>Brielle Williamson</td>
+                <td>Integration Specialist</td>
+                <td>New York</td>
+                <td>61</td>
+            </tr>
+            <tr>
+                <td>Herrod Chandler</td>
+                <td>Sales Assistant</td>
+                <td>San Francisco</td>
+                <td>59</td>
+            </tr>
+            <tr>
+                <td>Rhona Davidson</td>
+                <td>Integration Specialist</td>
+                <td>Tokyo</td>
+                <td>55</td>
+            </tr>
+            <tr>
+                <td>Colleen Hurst</td>
+                <td>Javascript Developer</td>
+                <td>San Francisco</td>
+                <td>39</td>
+            </tr>       
+            <tr>
+                <td>Donna Snider</td>
+                <td>Customer Support</td>
+                <td>New York</td>
+                <td>27</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+                <th>Nota Promedio</th>
+            </tr>
+        </tfoot>
+    </table>    
+    	</div>
+    	
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <!-- sidebar-wrapper  -->
+  
+  
+  
+  
+  
+  
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>	
-  <%@include file = "../Admin/index.jsp"%> 
+  
   <!-- page-content -->
 </div>
 <!-- page-wrapper -->

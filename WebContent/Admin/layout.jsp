@@ -6,9 +6,9 @@
 <meta charset="ISO-8859-1">
 <title>SDG Educativa</title>
 <!--  INICIO RERENCIAS LAYOUT -->
-<link rel="apple-touch-icon" type="image/png" href="https://static.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
-<meta name="apple-mobile-web-app-title" content="CodePen"><link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
-<link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+
+
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
 
@@ -61,7 +61,7 @@
       <div class="sidebar-menu">
         <ul>
           <li class="header-menu">
-            <span>Menú</span>
+            <span>Menu</span>
           </li>
           <li class="sidebar-dropdown">
             <a href="#">
@@ -76,13 +76,14 @@
                   
                 </li>
                 <li>
-                  <a href="#">Modificar</a>
+                  <a href="ModificarAlumno.jsp">Modificar</a>
                 </li>
                 <li>
                   <a href="#">Eliminar</a>
                 </li>
                 <li>
-                  <a href="#">Listar Alumnos</a>
+                 
+                  <a href="ListarAlumnos.jsp">Listar Alumnos</a>
                 </li>               
               </ul>
             </div>
@@ -96,15 +97,19 @@
               <ul>             
               <li>
                   <a href="AddDocente.jsp">Agregar</a>
+                  
                 </li>
                 <li>
-                  <a href="#">Modificar</a>
+                  <a href="ModificarDocente.jsp">Modificar</a>
                 </li>
                 <li>
                   <a href="#">Eliminar</a>
                 </li>              
                 <li>
-                  <a href="#">Listado</a>
+                
+                <a href="ListarDocente.jsp">Listado</a>
+                
+                 
                 </li>              
               </ul>
             </div>
@@ -127,7 +132,10 @@
                   <a href="#">Eliminar</a>
                 </li>
                 <li>
-                  <a href="#">Listado</a>
+                
+                 
+                
+                  <a href="ListarCursos.jsp">Listado</a>
                 </li>             
               </ul>
             </div>
@@ -140,7 +148,8 @@
             <div class="sidebar-submenu">
               <ul>
                 <li>
-                  <a href="#">Reportes 1</a>
+                
+                  <a href="Reporte1.jsp">Reportes 1</a>
                 </li>
                 <li>
                   <a href="#">Reportes 2</a>
