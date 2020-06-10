@@ -199,9 +199,9 @@ span{margin:0 5px 0 15px}
   <!-- sidebar-wrapper  -->
  <main class="page-content">
     <div class="container">
-      <h2>Eliminar Docente</h2>
+      <h2>Eliminar Curso</h2>
      
-     <p> Para borrar un docente, debe completar los siguientes datos a continuación: </p>
+     <p> Para borrar un curso, debe completar los siguientes datos a continuación: </p>
      
      
       <hr>
