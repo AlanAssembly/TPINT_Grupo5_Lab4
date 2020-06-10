@@ -126,7 +126,7 @@
                   
                 </li>
                 <li>
-                  <a href="#">Modificar</a>
+                  <a href="ModificarCurso.jsp">Modificar</a>
                 </li>
                 <li>
                   <a href="EliminarCurso.jsp">Eliminar</a>
